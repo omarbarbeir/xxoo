@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="tic.css">
+    <link rel="stylesheet" href="output.css">
+    <title>TIC TAC TOE</title>
+</head>
+<body>
+    
+
+<div id="main">
+
+
+    <button id="start" class="bg-green-500 text-blue-800 font-bold hover:text-green-500 hover:bg-blue-800 italic">START GAME</button>
+
+    <div id="container">
+            <div id="game" class="w-3/4 relative lg:w-96 h-96 flex justify-center items-center">
+                <div id="title" class=" -top-12 w-2/3 text-5xl p-2 lg:w-80 lg:p-1 text-blue-900 italic font-bold bg-green-500"><span>XO</span> Game</div>
+    
+    
+                <div id="item1" class="w-60 h-60 square bg-slate-950 lg:w-28 lg:h-28 text-7xl" onclick="game(this.id)"></div>
+                <div id="item2" class="w-60 h-60 square bg-slate-950 lg:w-28 lg:h-28 text-7xl" onclick="game(this.id)"></div>
+                <div id="item3" class="w-60 h-60 square bg-slate-950 lg:w-28 lg:h-28 text-7xl" onclick="game(this.id)"></div>
+        
+                <div id="item4" class="w-60 h-60 square bg-slate-950 lg:w-28 lg:h-28 text-7xl" onclick="game(this.id)"></div>
+                <div id="item5" class="w-60 h-60 square bg-slate-950 lg:w-28 lg:h-28 text-7xl" onclick="game(this.id)"></div>
+                <div id="item6" class="w-60 h-60 square bg-slate-950 lg:w-28 lg:h-28 text-7xl" onclick="game(this.id)"></div>
+        
+                <div id="item7" class="w-60 h-60 square bg-slate-950 lg:w-28 lg:h-28 text-7xl" onclick="game(this.id)"></div>
+                <div id="item8" class="w-60 h-60 square bg-slate-950 lg:w-28 lg:h-28 text-7xl" onclick="game(this.id)"></div>
+                <div id="item9" class="w-60 h-60 square bg-slate-950 lg:w-28 lg:h-28 text-7xl" onclick="game(this.id)"></div>
+            </div>
+        <button id="exit" class="w-20 h-20 text-5xl lg:text-3xl lg:w-10 lg:h-10">X</button>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+    
+
+
+<script src="tic.js"></script>
+<script src="https://kit.fontawesome.com/41a38439e1.js" crossorigin="anonymous"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>    
+</body>
+</html>
